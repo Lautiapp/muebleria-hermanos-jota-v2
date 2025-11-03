@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3000/api/productos';
+const BASE_URL = 'https://muebleria-hermanos-jota-v2-jnje.onrender.com';
 
 export const getAllProducts = async () => {
   try {
