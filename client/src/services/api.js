@@ -2,7 +2,7 @@ const BASE_URL = 'https://muebleria-hermanos-jota-v2-jnje.onrender.com/api/produ
 
 export const getAllProducts = async () => {
   try {
-    const response = await fetch(BASE_URL);
+    const response = await fetch(BASE_URL, { cache: 'no-store' });
     if (!response.ok) {
       throw new Error('Error al obtener los productos');
     }
