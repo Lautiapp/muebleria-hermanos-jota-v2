@@ -1,4 +1,4 @@
-const BASE_URL = 'https://muebleria-hermanos-jota-v2-jnje.onrender.com';
+const BASE_URL = 'https://muebleria-hermanos-jota-v2-jnje.onrender.com/api/productos';
 
 export const getAllProducts = async () => {
   try {
